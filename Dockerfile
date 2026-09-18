@@ -8,7 +8,7 @@ WORKDIR /app
 COPY server.js /app/server.js
 
 #3.1 copy the package.json file
-COPY package*.json /app/
+COPY package.json /app/
 
 COPY . .
 
