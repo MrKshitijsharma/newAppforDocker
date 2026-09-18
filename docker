@@ -1,0 +1,8 @@
+#1 Base Image (OS)
+FROM node:18-alpine
+
+#2 Working Directory
+WORKDIR /app
+
+#3 copy the code from the host to container (working directory mentioned above)
+COPY 
